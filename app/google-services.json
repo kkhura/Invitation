@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "805433221386",
+    "firebase_url": "https://agraproject-d80b3.firebaseio.com",
+    "project_id": "agraproject-d80b3",
+    "storage_bucket": "agraproject-d80b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805433221386:android:79849bcda7594b0f",
+        "android_client_info": {
+          "package_name": "com.codeliver128.shaadiinvitation1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805433221386-tdm3tti0ooqi57f499o2m3kvr1srg4cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD_h0wWG4OZV8uJDNHLg0lkfQ43ysrEdU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

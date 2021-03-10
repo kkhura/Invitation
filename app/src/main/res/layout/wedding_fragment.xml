@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="@drawable/back"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="120dp"
+            android:background="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_height="70dp"/>
+
+    <ImageView android:id="@+id/image"
+               android:src="@drawable/shubhganeshji"
+               android:scaleType="centerCrop"
+               android:layout_width="80dp"
+               android:layout_marginTop="15dp"
+               android:layout_centerHorizontal="true"
+               android:layout_height="80dp"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_marginTop="100dp"
+                  android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/hostline"
+                android:text="@string/host_line"
+                android:textSize="34sp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/adine"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/request_line"
+                android:text="@string/request_line"
+                android:textSize="12sp"
+                android:textColor="@color/dim_grey"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/wedding_ceremony_line"
+                android:text="@string/wedding_ceremony"
+                android:textSize="11sp"
+                android:textColor="@color/dim_grey"
+                android:layout_width="match_parent"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/cherry_swash"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/son_line"
+                android:text="@string/of_son"
+                android:textSize="12sp"
+                android:textColor="@color/dim_grey"
+                android:layout_width="match_parent"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+
+        <TextView
+                android:id="@+id/name_groom"
+                android:layout_width="wrap_content"
+                android:text="@string/groom_name"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/samarkan_normal"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/txt_weds"
+                android:layout_width="wrap_content"
+                android:text="@string/with"
+                android:textColor="@color/dim_grey"
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/samarkan_normal"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/name_bride"
+                android:layout_width="wrap_content"
+                android:text="@string/bride_name"
+                android:layout_below="@+id/txt_weds"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/samarkan_normal"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/parents_line"
+                android:text="@string/parents_line"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/dim_grey"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="14dp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/info_line"
+                android:text="@string/info_line"
+                android:textSize="12sp"
+                android:textColor="@color/dim_grey"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="serif-monospace"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/best_compliments_line"
+                android:text="@string/best_compliments_line"
+                android:textSize="11sp"
+                android:textColor="@color/dim_grey"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="@font/audiowide"
+                android:layout_height="wrap_content"/>
+
+
+        <TextView
+                android:id="@+id/family_tag"
+                android:layout_width="wrap_content"
+                android:text="@string/family_tag"
+                android:textSize="12sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/dim_grey"
+                android:layout_marginRight="16dp"
+                android:fontFamily="serif-monospace"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:layout_marginBottom="40dp"
+               android:layout_alignParentBottom="true"
+               android:src="@drawable/barrar"/>
+
+</RelativeLayout>

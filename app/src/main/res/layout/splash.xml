@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+            android:src="@color/white_dim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/spsls"
+            android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content">
+
+
+    <ImageView
+            android:id="@+id/ganeshji"
+            android:src="@drawable/ganessh"
+            android:layout_width="140dp"
+            android:background="@android:color/transparent"
+            android:layout_height="140dp"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:id="@+id/text_ganeshji"
+            android:layout_width="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="18sp"
+            android:fontFamily="@font/devlys_thin"
+            android:layout_below="@+id/ganeshji"
+            android:layout_marginTop="24dp"
+            android:textStyle="italic"
+            android:layout_centerHorizontal="true"
+            android:text="@string/om_ganeshaya_namah"
+            android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+            android:id="@+id/text_wakra_1"
+            android:layout_width="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="17sp"
+            android:fontFamily="@font/devlys_thin"
+            android:layout_below="@+id/text_ganeshji"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:layout_centerHorizontal="true"
+            android:text="@string/wakra_tund_shlok"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/text_wakra_2"
+            android:layout_width="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="17sp"
+            android:fontFamily="@font/devlys_thin"
+            android:layout_below="@+id/text_wakra_1"
+            android:textStyle="italic"
+            android:layout_centerHorizontal="true"
+            android:text="@string/wakra_tund_part_second"
+            android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:text="@string/app_name"
+            android:textColor="@color/red"
+            android:textSize="36sp"
+            android:fontFamily="@font/samarkan_normal"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/text_wakra_2"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+  <!--  <RelativeLayout
+            android:id="@+id/weds_lyt"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/text_wakra_2"
+            android:layout_marginTop="26dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/name_groom"
+                android:layout_width="wrap_content"
+                android:text="@string/groom_name"
+                android:textColor="@color/red"
+                android:textSize="40sp"
+                android:fontFamily="@font/samarkan_normal"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/txt_weds"
+                android:layout_width="wrap_content"
+                android:text="@string/weds"
+                android:layout_below="@+id/name_groom"
+                android:textColor="@color/red"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="90dp"
+                android:fontFamily="@font/samarkan_normal"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/name_bride"
+                android:layout_width="wrap_content"
+                android:text="@string/bride_name"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/txt_weds"
+                android:textSize="40sp"
+                android:layout_marginStart="145dp"
+                android:fontFamily="@font/samarkan_normal"
+                android:textColor="@color/red"
+                android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/text_date_time"
+            android:layout_width="match_parent"
+            android:textColor="@color/red"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/cherry_swash"
+            android:layout_below="@+id/weds_lyt"
+            android:layout_marginTop="20dp"
+            android:textStyle="italic"
+            android:text="@string/date_time"
+            android:layout_height="wrap_content"/>-->
+
+</RelativeLayout>

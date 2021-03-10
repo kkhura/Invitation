@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/audiowide</item>
+        <item>@font/cherry_swash</item>
+        <item>@font/crafty_girls</item>
+        <item>@font/dawning_of_a_new_day</item>
+        <item>@font/delius_swash_caps</item>
+        <item>@font/la_belle_aurore</item>
+        <item>@font/macondo_swash_caps</item>
+        <item>@font/sunshiney</item>
+    </array>
+</resources>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Shaadi Invitation</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="groom_name">Nirmesh</string>
+    <string name="weds">Weds</string>
+    <string name="bride_name">Pragya</string>
+    <string name="with">with</string>
+    <string name="date_time">On Wednesday, 13th February, 2019</string>
+
+    <string name="timing">Wednesday, 13th February, 2019</string>
+    <string name="timing_second_day">Thursday, 14th February, 2019</string>
+    <string name="om_ganeshaya_namah">॥ ॐ श्री गणेशाय नमः ॥</string>
+    <string name="shri_ganeshaya_namah">॥ श्री गणेशाय नमः ॥</string>
+    <string name="wakra_tund_shlok">वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ: ।</string>
+    <string name="wakra_tund_part_second">निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥</string>
+    <string name="sarwa_mangal_slok">सर्वमंगल मांगल्ये शिवे सर्वार्थ साधिके ।</string>
+    <string name="sarwa_mangal_slok_part_second">शरण्ये त्र्यम्बके गौरि नारायणि नमोस्तुते ।।</string>
+    <string name="shadi_mai_jaroor_aana">शादी में जरूर आना</string>
+    <string name="venue">Events</string>
+    <string name="wedding">Home</string>
+    <string name="reception">Invitation</string>
+    <string name="land_mark">LANDMARK:- Near Janakpuri West Metro Station.</string>
+
+    <!--  wedding tab content-->
+    <string name="host_line">Smt. Vidya &amp; Sh. Indrajit</string>
+    <string name="request_line">We solicit your gracious presence &amp; seek blessings on the auspicious occasion of wedding ceremony of</string>
+
+    <string name="wedding_ceremony">wedding ceremony</string>
+    <string name="of_son">beloved son of</string>
+    <string name="parents_line">lovable daughter of</string>
+    <string name="host_line1">Smt. Saroj &amp; Sh. Jagdish</string>
+    <string name="info_line">please join us on this joyous occassion</string>
+    <string name="best_compliments_line">BEST COMPLIMENTS</string>
+    <string name="family_tag">THE GUPTA FAMILY</string>
+    <string name="photos">Gallery</string>
+    <string name="wishes">Wishes</string>
+    <string name="developed_by">Developed by: Codeliver 128</string>
+    <string name="departure_of_barat">Baraat will start from Dwarka residence &amp; assemble at Janakpuri Distt.
+        Centre Authority at 7:30 PM and proceed to the venue.
+    </string>
+    <string name="note">Note:</string>
+    <string name="program_1">Dwarachar .................... 07:00 PM</string>
+    <string name="program_2">Pritibhoj ......................... 08:00 PM</string>
+    <string name="program_3">Panigrahan ................. Ratri Bela</string>
+    <string name="program_4">Bidaai ..................... Pratah bela</string>
+    <string name="doli_chow_mein">Doli ................ Taro Ki Chown mei</string>
+    <!--  wedding tab content-->
+
+
+
+    <string name="countdown_timer">%1$d minutes ago</string>
+
+</resources>

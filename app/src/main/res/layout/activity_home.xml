@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".HomeActivity">
+
+    <RelativeLayout
+            android:id="@+id/indicator_lyt"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:scaleType="centerCrop"
+                   android:src="@drawable/barratiiiiiis"/>
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:background="#D9F8F8FF"
+                android:layout_height="match_parent"/>
+
+
+        <github.chenupt.springindicator.SpringIndicator
+                app:siTextSize="12sp"
+                app:siIndicatorColors="@array/indicator_colors"
+                app:siTextColor="@color/dim_pink"
+                app:siSelectedTextColor="@android:color/white"
+                app:siIndicatorColor="@color/pink"
+                app:siRadiusMax="27dp"
+                app:siRadiusMin="20dp"
+                android:id="@+id/indicator"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+
+        <github.chenupt.springindicator.viewpager.ScrollerViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_marginTop="64dp"
+                android:layout_height="match_parent"/>
+
+
+
+    <!--
+        <declare-styleable name="SpringIndicator">
+
+            &lt;!&ndash;tab text color &ndash;&gt;
+            <attr name="siTextColor" format="reference"/>
+
+            &lt;!&ndash;tab text color which is selected&ndash;&gt;
+            <attr name="siSelectedTextColor" format="reference"/>
+
+            &lt;!&ndash;tab item bg &ndash;&gt;
+            <attr name="siTextBg" format="reference"/>
+
+            &lt;!&ndash;tab text size&ndash;&gt;
+            <attr name="siTextSize" format="dimension"/>
+
+            &lt;!&ndash;indicator bg color&ndash;&gt;
+            <attr name="siIndicatorColor" format="reference"/>
+
+            &lt;!&ndash;indicator bg colors. should equals your titles count&ndash;&gt;
+            <attr name="siIndicatorColors" format="reference"/>
+
+            &lt;!&ndash;max indicator radius&ndash;&gt;
+            <attr name="siRadiusMax" format="dimension"/>
+
+            &lt;!&ndash;min indicator radius when moving&ndash;&gt;
+            <attr name="siRadiusMin" format="dimension"/>
+
+        </declare-styleable>-->
+
+</RelativeLayout>

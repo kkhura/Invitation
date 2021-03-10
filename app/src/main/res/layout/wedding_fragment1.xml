@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:fillViewport="true"
+            android:layout_height="match_parent">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/moreblurr"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+                android:id="@+id/layout_relative"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content">
+
+            <RelativeLayout
+                    android:id="@+id/names_lyt"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/name_groom"
+                        android:layout_width="wrap_content"
+                        android:text="@string/groom_name"
+                        android:textColor="@color/red"
+                        android:textSize="36sp"
+                        android:fontFamily="@font/samarkan_normal"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:id="@+id/txt_weds"
+                        android:layout_width="wrap_content"
+                        android:text="@string/weds"
+                        android:layout_below="@+id/name_groom"
+                        android:textColor="@color/red"
+                        android:textSize="25sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginStart="40dp"
+                        android:fontFamily="@font/samarkan_normal"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:id="@+id/name_bride"
+                        android:layout_width="wrap_content"
+                        android:text="@string/bride_name"
+                        android:layout_below="@+id/txt_weds"
+                        android:textSize="36sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginStart="60dp"
+                        android:fontFamily="@font/samarkan_normal"
+                        android:textColor="@color/red"
+                        android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <TextView
+                    android:id="@+id/text_timing"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/red"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@font/cherry_swash"
+                    android:layout_below="@+id/names_lyt"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="italic"
+                    android:text="@string/date_time"
+                    android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                    android:id="@+id/countdown_lyt"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/text_timing"
+                    android:layout_height="wrap_content">
+
+
+                <TextView
+                        android:id="@+id/text_timer"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/red"
+                        android:textSize="14sp"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/decorative"
+                        android:textStyle="italic"
+                        android:text="@string/date_time"
+                        android:layout_height="wrap_content"/>
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/layoutFrom"
+                android:layout_width="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="100dp"
+                android:visibility="gone"
+                android:layout_marginStart="50dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:id="@+id/txtInv"
+                    android:layout_width="wrap_content"
+                    android:text="A Cordial Invitation From :"
+                    android:textColor="@color/red"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/cherry_swash"
+                    android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                    android:id="@+id/txtFrom"
+                    android:layout_width="wrap_content"
+                    android:layout_below="@+id/txtInv"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Shailesh"
+                        android:textColor="@color/red"
+                        android:textSize="22sp"
+                        android:fontFamily="@font/cherry_swash"
+                        android:layout_height="wrap_content"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:text="(Dwarka, New Delhi)"
+                        android:textSize="8sp"
+                        android:layout_below="@+id/txtFrom"
+                        android:fontFamily="@font/cherry_swash"
+                        android:textColor="@color/red"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/txtAnd"
+                    android:layout_width="wrap_content"
+                    android:text=" &amp; "
+                    android:textColor="@color/red"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/cherry_swash"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/txtFrom"
+                    android:layout_alignTop="@+id/txtFrom"/>
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_toEndOf="@+id/txtAnd"
+                    android:layout_below="@+id/txtInv"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:id="@+id/txtFrom1"
+                        android:layout_width="wrap_content"
+                        android:text="Kamna"
+                        android:textColor="@color/red"
+                        android:textSize="22sp"
+                        android:fontFamily="@font/cherry_swash"
+                        android:layout_height="wrap_content"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:text="(Najafgarh, New Delhi)"
+                        android:textSize="8sp"
+                        android:fontFamily="@font/cherry_swash"
+                        android:textColor="@color/red"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
