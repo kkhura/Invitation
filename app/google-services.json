@@ -1,39 +1,27 @@
 {
   "project_info": {
-    "project_number": "805433221386",
-    "firebase_url": "https://agraproject-d80b3.firebaseio.com",
-    "project_id": "agraproject-d80b3",
-    "storage_bucket": "agraproject-d80b3.appspot.com"
+    "project_number": "1089878789893",
+    "firebase_url": "https://wedding-c1c9a.firebaseio.com",
+    "project_id": "wedding-c1c9a",
+    "storage_bucket": "wedding-c1c9a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:805433221386:android:79849bcda7594b0f",
+        "mobilesdk_app_id": "1:1089878789893:android:6df54aca4873bd5fdcb16c",
         "android_client_info": {
-          "package_name": "com.codeliver128.shaadiinvitation1"
+          "package_name": "com.kkhura.invitation"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "805433221386-tdm3tti0ooqi57f499o2m3kvr1srg4cn.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBD_h0wWG4OZV8uJDNHLg0lkfQ43ysrEdU"
+          "current_key": "AIzaSyB-1UuXZ7G1G2RnXIGjJU3xeUrlcNTlkVA"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
           "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }
